@@ -52,13 +52,13 @@ I mapped the activity identified during my investigation to the MITRE ATT&CK fra
 
 ---
 
-## T1070.008 – Clear Mailbox Data
+## T1564.008 – Email Hiding Rules
 
 **Tactic:** Defense Evasion
 
-**Evidence:** I identified a malicious mailbox rule named **"RSS Subscriptions"** that targeted financial and invoice-related emails, moved them to RSS Feeds, and marked them as read.
+**Evidence:** I identified a malicious mailbox rule named **"RSS Subscriptions"** that automatically redirected financial and invoice-related emails to the **RSS Feeds** folder and marked them as read.
 
-**Why I mapped it:** The mailbox manipulation was used to conceal financial communications from the CEO and reduce the likelihood that the activity would be noticed.
+**Why I mapped it:** The attacker used the mailbox rule to conceal financial communications from the CEO and prevent important emails from appearing in the primary inbox. This behavior aligns with **Email Hiding Rules (T1564.008)** because the rule was designed to hide evidence of ongoing email activity rather than delete mailbox data.
 
 ---
 
