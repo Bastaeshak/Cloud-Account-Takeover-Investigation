@@ -7,7 +7,7 @@ Overview
 
 In this project, I investigated a Microsoft 365 account takeover involving a password-spray attack. I analyzed sign-in and audit logs to identify how the attacker gained access, what actions they performed, which accounts were affected, and how the incident could be contained.
 
-##Tools Used
+## Tools Used
 KQL
 Azure Data Explorer: This investigation was performed using Azure Data Explorer. The same KQL syntax is used in Microsoft Sentinel for log analysis and threat hunting.
 Entra ID Sign-in Logs
