@@ -9,7 +9,7 @@ In this project, I investigated a Microsoft 365 account takeover involving a pas
 
 Tools Used
 KQL
-Microsoft Sentinel
+Azure Data Explorer: This investigation was performed using Azure Data Explorer. The same KQL syntax is used in Microsoft Sentinel for log analysis and threat hunting.
 Entra ID Sign-in Logs
 Microsoft 365 Audit Logs
 MITRE ATT&CK
